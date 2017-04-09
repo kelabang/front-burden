@@ -2,12 +2,13 @@
 * @Author: Imam
 * @Date:   2017-04-08 23:54:12
 * @Last Modified by:   Imam
-* @Last Modified time: 2017-04-09 11:27:37
+* @Last Modified time: 2017-04-09 17:54:56
 */
 
 import React, { Component } from 'react';
 
-import StreamItem from './../StreamItem/StreamItem.js';
+import NotificationComponent from './../NotificationComponent/NotificationComponent.js';
+import StreamTimelineComponent from './../StreamTimelineComponent/StreamTimelineComponent';
 
 class SectionComponent extends Component {
 	render() {
@@ -15,7 +16,7 @@ class SectionComponent extends Component {
 			<section className="section main">
 				<div className="container">
 				<div className="columns">
-				<div className="column is-3 hide">
+				<div className="column is-3 ">
 				<div className="card is-fullwidth">
 				<header className="card-header" />
 				<div className="card-content">
@@ -68,15 +69,10 @@ class SectionComponent extends Component {
 				</div>
 				</div>
 				<div className="column is-6">
-				<div className="notification is-danger">
-				<button className="delete" onClick={() => {}}/>
-				This template is not yet finished, it may change. Please check the readme for more information.
+					<NotificationComponent />
+					<StreamTimelineComponent />
 				</div>
-					<div className="box">
-						<StreamItem username="ma4m" userfullname="imam tauhid" useravatar="https://pbs.twimg.com/profile_images/492205428567072768/M_eHSDxx.jpeg" value="coba upload ke stream" datetime="2017-1-2 12:10:00" />
-					</div>
-				</div>
-				<div className="column is-3 hide">
+				<div className="column is-3 ">
 				<div className="box">
 				<p><span className="title is-5">Who to follow</span> · <a href="#">Refresh</a>· <a href="#">View All</a></p>
 				<hr/>
@@ -90,7 +86,7 @@ class SectionComponent extends Component {
 				<p>
 				<a href="#">
 				<strong>John Smith</strong>
-				&commat;jsmith
+				@jsmith
 				</a>
 				<a href="#">
 				<i className="fa fa-times"/>
@@ -113,7 +109,7 @@ class SectionComponent extends Component {
 				<p>
 				<a href="#">
 				<strong>Jane Smith</strong>
-				&commat;janesmith
+				@janesmith
 				</a>
 				<a href="#">
 				<i className="fa fa-times"/>
@@ -136,7 +132,7 @@ class SectionComponent extends Component {
 				<p>
 				<a href="#">
 				<strong>Mike Scott</strong>
-				&commat;mscott
+				@mscott
 				</a>
 				<a href="#">
 				<i className="fa fa-times"/>

@@ -2,12 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 // import {mount} from 'enzyme';
 import renderer from 'react-test-renderer';
-import StreamItem from './StreamItem.js';
+import StreamItemComponent from './StreamItemComponent.js';
 
 
 it('renders without crashing', () => {
 	const div = document.createElement('div');
-	ReactDOM.render(<StreamItem />, div);
+	ReactDOM.render(<StreamItemComponent />, div);
 });
 
 const mockup = {
@@ -18,9 +18,9 @@ const mockup = {
 	'datetime': '1991-11-29 00:00:00'
 };
 
-test('StreamItem displayed data', () => {
+test('StreamItemComponent displayed data', () => {
 	const component = renderer.create(
-		<StreamItem username={mockup.username} userfullname={mockup.userfullname} useravatar={mockup.useravatar} value={mockup.value} datetime={mockup.datetime} />
+		<StreamItemComponent username={mockup.username} userfullname={mockup.userfullname} useravatar={mockup.useravatar} value={mockup.value} datetime={mockup.datetime} />
 	);
 	let tree = component.toJSON();
 	expect(tree).toMatchSnapshot();

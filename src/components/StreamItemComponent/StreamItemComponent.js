@@ -2,14 +2,14 @@
 * @Author: Imam
 * @Date:   2017-04-09 03:56:10
 * @Last Modified by:   Imam
-* @Last Modified time: 2017-04-09 14:11:15
+* @Last Modified time: 2017-04-09 16:05:19
 */
 
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import moment from 'moment';
 
-class StreamItem extends Component {
+class StreamItemComponent extends Component {
 	static propTypes = {
 		username: PropTypes.string,
 		userfullname: PropTypes.string,
@@ -63,4 +63,4 @@ class StreamItem extends Component {
 	}
 }
 
-export default StreamItem;
+export default StreamItemComponent;
