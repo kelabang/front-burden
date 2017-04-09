@@ -2,13 +2,13 @@
 * @Author: Imam
 * @Date:   2017-04-08 23:29:07
 * @Last Modified by:   Imam
-* @Last Modified time: 2017-04-09 03:15:39
+* @Last Modified time: 2017-04-09 11:27:09
 */
 
 import React, { Component } from 'react';
 
-import NavMenuComponent from './NavMenuComponent.js';
-import NavItemComponent from './NavItemComponent.js';
+import NavMenuComponent from './../NavMenuComponent/NavMenuComponent.js';
+import NavItemComponent from './../NavItemComponent/NavItemComponent.js';
 
 class NavComponent extends Component {
 	constructor (props) {

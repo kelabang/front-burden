@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"Prop",
+				"PropTypes.string"
+			],
+			[
+				"actiev",
+				"activeIndex"
+			],
+			[
+				"active",
+				"activeIndex"
+			],
+			[
+				"Propt",
+				"PropTypes.func"
+			],
+			[
 				"getfirst",
 				"getFirstMessageTopCN"
 			],
@@ -498,68 +514,25 @@
 			[
 				"Login",
 				"LoginForm"
-			],
-			[
-				"notifi",
-				"notificationbar"
-			],
-			[
-				"class",
-				"className"
-			],
-			[
-				"No",
-				"NotificationBar"
-			],
-			[
-				"conten",
-				"contentObj"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "src/App.js",
+			"file": "src/App.test.js",
 			"settings":
 			{
-				"buffer_size": 496,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "public/index.html",
-			"settings":
-			{
-				"buffer_size": 21141,
+				"buffer_size": 208,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "src/components/NavComponent.js",
+			"file": "package.json",
 			"settings":
 			{
-				"buffer_size": 1359,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/components/SectionComponent.js",
-			"settings":
-			{
-				"buffer_size": 140,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/d4r/Sites/exp/index.html",
-			"settings":
-			{
-				"buffer_size": 19289,
-				"encoding": "UTF-8",
+				"buffer_size": 483,
 				"line_ending": "Unix"
 			}
 		},
@@ -567,7 +540,7 @@
 			"file": ".eslintrc",
 			"settings":
 			{
-				"buffer_size": 6816,
+				"buffer_size": 6836,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -581,9 +554,25 @@
 	"command_palette":
 	{
 		"height": 392.0,
-		"last_filter": "sublimelinter",
+		"last_filter": "sub",
 		"selected_items":
 		[
+			[
+				"sub",
+				"SublimeLinter: Toggle Linter"
+			],
+			[
+				"sublime",
+				"SublimeLinter: Toggle Linter"
+			],
+			[
+				"sni class",
+				"Snippet: React: class component"
+			],
+			[
+				"snppetcompon",
+				"Snippet: React: class component"
+			],
 			[
 				"sublimelinter",
 				"SublimeLinter: Enable Linter"
@@ -665,7 +654,7 @@
 				"Origami: Create Pane on the Right"
 			]
 		],
-		"width": 593.0
+		"width": 473.0
 	},
 	"console":
 	{
@@ -691,13 +680,31 @@
 	"expanded_folders":
 	[
 		"/Users/d4r/Sites/front-burden",
+		"/Users/d4r/Sites/front-burden/public",
 		"/Users/d4r/Sites/front-burden/src",
-		"/Users/d4r/Sites/front-burden/src/components"
+		"/Users/d4r/Sites/front-burden/src/components",
+		"/Users/d4r/Sites/front-burden/src/components/StreamItem"
 	],
 	"file_history":
 	[
-		"/Users/d4r/Sites/front-burden/front_burden.sublime-project",
+		"/Users/d4r/Sites/front-burden/src/components/StreamItem/StreamItem.test1.js",
+		"/Users/d4r/Sites/front-burden/yarn.lock",
 		"/Users/d4r/Sites/front-burden/.eslintrc",
+		"/Users/d4r/Sites/front-burden/src/components/SectionComponent/SectionComponent.js",
+		"/Users/d4r/Sites/front-burden/src/components/NavComponent/NavComponent.js",
+		"/Users/d4r/Sites/front-burden/src/components/NavMenuComponent/NavMenuComponent.js",
+		"/Users/d4r/Sites/front-burden/src/components/NavItemComponent/NavItemComponent.js",
+		"/Users/d4r/Sites/front-burden/src/components/StreamItem/StreamItem.js",
+		"/Users/d4r/Sites/front-burden/src/components/SectionComponent.js",
+		"/Users/d4r/Sites/front-burden/src/App.js",
+		"/Users/d4r/Sites/front-burden/src/components/StreamItem.js",
+		"/Users/d4r/Sites/front-burden/src/components/NavComponent.js",
+		"/Users/d4r/Sites/front-burden/src/components/NavItemComponent.js",
+		"/Users/d4r/Sites/front-burden/src/components/NavMenuComponent.js",
+		"/Users/d4r/Sites/front-burden/package.json",
+		"/Users/d4r/Sites/front-burden/public/index.html",
+		"/Users/d4r/Sites/exp/index.html",
+		"/Users/d4r/Sites/front-burden/front_burden.sublime-project",
 		"/Users/d4r/Sites/stockbitreact/webpack.config.js",
 		"/Users/d4r/Sites/stockbitreact/app/modules/stream/reducer.js",
 		"/Users/d4r/Sites/stockbitreact/.htaccess",
@@ -785,7 +792,6 @@
 		"/Users/d4r/Sites/mon/src/layouts/CoreLayout/CoreLayout.js",
 		"/Users/d4r/Sites/mon/src/routes/Home/index.js",
 		"/Users/d4r/Sites/mon/src/routes/Home/components/HomeView.js",
-		"/Users/d4r/Sites/exp/index.html",
 		"/Users/d4r/Sites/burden/api/models/Stream.js",
 		"/Users/d4r/Sites/burden/config/policies.js",
 		"/Users/d4r/Sites/burden/api/models/User.js",
@@ -808,22 +814,7 @@
 		"/Users/d4r/Sites/mangas_git/src/index.jsx",
 		"/Users/d4r/Sites/mangas_git/webpack.config.js",
 		"/Users/d4r/Sites/EnjingJS/app/model/follow/follow.model.js",
-		"/Users/d4r/Sites/EnjingJS/knexfile.js",
-		"/Users/d4r/Sites/EnjingJS/seeds/user_seed.js",
-		"/Users/d4r/Sites/EnjingJS/app/model/stream/stream.model.js",
-		"/Users/d4r/Sites/EnjingJS/migrations/00160526185951_user.js",
-		"/Users/d4r/Sites/EnjingJS/migrations/01160813175719_gallery.js",
-		"/Users/d4r/Sites/EnjingJS/dev.sqlite3",
-		"/Users/d4r/Sites/EnjingJS/app/index.js",
-		"/Users/d4r/Sites/EnjingJS/app/super/controller.super.js",
-		"/Users/d4r/Sites/EnjingJS/app/route/stream.route.json",
-		"/Users/d4r/Sites/ulinary/app/actions/authentication.js",
-		"/Users/d4r/Sites/ulinary/app/component/index/stream.js",
-		"/Users/d4r/Sites/ulinary/app/component/index/index.js",
-		"/Users/d4r/Sites/ulinary/index.js",
-		"/Users/d4r/Sites/ulinary/package.json",
-		"/Users/d4r/Sites/ulinary/app/reducers/stream.js",
-		"/Users/d4r/Sites/ulinary/webpack.config.js"
+		"/Users/d4r/Sites/EnjingJS/knexfile.js"
 	],
 	"find":
 	{
@@ -843,6 +834,40 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"datedisplay",
+			"clickSelectedIndex",
+			"onclick",
+			"\"",
+			"nav",
+			"wrapclass",
+			"&nbsp;",
+			"\"float:right;\"",
+			"style=",
+			"<img",
+			"alt=\"Image\"",
+			"\"image\"",
+			"\"Image\"",
+			"Image",
+			"image",
+			"Image",
+			"image",
+			"Image",
+			"image",
+			"Image",
+			"image",
+			"Image",
+			"alt=\"Image\"",
+			"component/",
+			"component",
+			"</a> ",
+			"></i",
+			"<hr",
+			"<img",
+			"br",
+			"class=",
+			"></span",
+			"{\"",
+			"\"",
 			"spacing",
 			"no-empty-label",
 			"//",
@@ -936,41 +961,7 @@
 			"onCloseImage",
 			"showMainFigure",
 			"stream-figure-modal",
-			"images",
-			"this.props.images",
-			"ImageStream",
-			"image",
-			"figure",
-			"image",
-			"stream-figure-img",
-			"image",
-			"img",
-			"value:",
-			"value",
-			"SymbolUserFormSearch",
-			"selectSymbolCompare",
-			"onChangeSymbolUserFormSearch",
-			"SymbolUserFormSearch",
-			"search",
-			"symbolaction",
-			"get_widget_orderbook_symbol",
-			"onChangeSymbolUserFormSearch",
-			"search",
-			"redirect",
-			"compressed",
-			"123654",
-			"conversationinitAction",
-			"contenttabnotification",
-			"hid",
-			"convo_hid",
-			"hid",
-			"highlight",
-			"this.state.ishid",
-			"ishid",
-			"redirect",
-			"symbolaction",
-			"notificationAction",
-			"symbolaction"
+			"images"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -992,24 +983,24 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "src/App.js",
+					"file": "src/App.test.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 496,
+						"buffer_size": 208,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								468,
-								468
+								208,
+								208
 							]
 						],
 						"settings":
@@ -1061,344 +1052,36 @@
 								3,
 								46
 							],
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "public/index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 21141,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2416,
-								2416
-							]
-						],
-						"settings":
-						{
-							"c_time":
-							[
-								128,
-								3,
-								99,
-								100,
-								97,
-								116,
-								101,
-								116,
-								105,
-								109,
-								101,
-								10,
-								100,
-								97,
-								116,
-								101,
-								116,
-								105,
-								109,
-								101,
-								10,
-								113,
-								0,
-								67,
-								10,
-								7,
-								225,
-								4,
-								8,
-								22,
-								53,
-								35,
-								0,
-								0,
-								0,
-								113,
-								1,
-								133,
-								113,
-								2,
-								82,
-								113,
-								3,
-								46
-							],
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 291.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "src/components/NavComponent.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1359,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								157,
-								157
-							]
-						],
-						"settings":
-						{
-							"c_time":
-							[
-								128,
-								3,
-								99,
-								100,
-								97,
-								116,
-								101,
-								116,
-								105,
-								109,
-								101,
-								10,
-								100,
-								97,
-								116,
-								101,
-								116,
-								105,
-								109,
-								101,
-								10,
-								113,
-								0,
-								67,
-								10,
-								7,
-								225,
-								4,
-								8,
-								23,
-								29,
-								7,
-								0,
-								0,
-								0,
-								113,
-								1,
-								133,
-								113,
-								2,
-								82,
-								113,
-								3,
-								46
-							],
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "src/components/SectionComponent.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 140,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								140,
-								140
-							]
-						],
-						"settings":
-						{
-							"c_time":
-							[
-								128,
-								3,
-								99,
-								100,
-								97,
-								116,
-								101,
-								116,
-								105,
-								109,
-								101,
-								10,
-								100,
-								97,
-								116,
-								101,
-								116,
-								105,
-								109,
-								101,
-								10,
-								113,
-								0,
-								67,
-								10,
-								7,
-								225,
-								4,
-								8,
-								23,
-								54,
-								12,
-								0,
-								0,
-								0,
-								113,
-								1,
-								133,
-								113,
-								2,
-								82,
-								113,
-								3,
-								46
-							],
-							"open_with_edit": true,
 							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/Users/d4r/Sites/exp/index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 19289,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1778,
-								1778
-							]
-						],
-						"settings":
-						{
-							"c_time":
-							[
-								128,
-								3,
-								99,
-								100,
-								97,
-								116,
-								101,
-								116,
-								105,
-								109,
-								101,
-								10,
-								100,
-								97,
-								116,
-								101,
-								116,
-								105,
-								109,
-								101,
-								10,
-								113,
-								0,
-								67,
-								10,
-								7,
-								225,
-								3,
-								15,
-								23,
-								19,
-								1,
-								0,
-								0,
-								0,
-								113,
-								1,
-								133,
-								113,
-								2,
-								82,
-								113,
-								3,
-								46
-							],
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
 		},
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
-					"buffer": 5,
-					"file": ".eslintrc",
-					"semi_transient": false,
+					"buffer": 1,
+					"file": "package.json",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 6816,
+						"buffer_size": 483,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6247,
-								6247
+								22,
+								22
 							]
 						],
 						"settings":
@@ -1434,9 +1117,86 @@
 								225,
 								4,
 								9,
+								4,
+								27,
+								48,
 								0,
+								0,
+								0,
+								113,
+								1,
+								133,
+								113,
 								2,
-								40,
+								82,
+								113,
+								3,
+								46
+							],
+							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JSON (JavaScriptNext).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": ".eslintrc",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6836,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								125,
+								125
+							]
+						],
+						"settings":
+						{
+							"c_time":
+							[
+								128,
+								3,
+								99,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								113,
+								0,
+								67,
+								10,
+								7,
+								225,
+								4,
+								9,
+								11,
+								8,
+								15,
 								0,
 								0,
 								0,
@@ -1455,10 +1215,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3359.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -1492,7 +1252,7 @@
 		"cols":
 		[
 			0.0,
-			0.5,
+			0.526169162326,
 			1.0
 		],
 		"rows":
@@ -1520,6 +1280,90 @@
 		"selected_items":
 		[
 			[
+				"",
+				".eslintrc"
+			],
+			[
+				"yar",
+				"yarn.lock"
+			],
+			[
+				".eslintrc",
+				".eslintrc"
+			],
+			[
+				"navitem",
+				"src/components/NavItemComponent/NavItemComponent.js"
+			],
+			[
+				"navmenucom",
+				"src/components/NavMenuComponent/NavMenuComponent.js"
+			],
+			[
+				"streamitem",
+				"src/components/StreamItem/StreamItem.js"
+			],
+			[
+				"sectoino",
+				"src/components/SectionComponent/SectionComponent.js"
+			],
+			[
+				"nav",
+				"src/components/NavComponent/NavComponent.js"
+			],
+			[
+				"sectioncomponent",
+				"src/components/SectionComponent.js"
+			],
+			[
+				"app",
+				"src/App.js"
+			],
+			[
+				"package",
+				"package.json"
+			],
+			[
+				"navitemcom",
+				"src/components/NavItemComponent.js"
+			],
+			[
+				"compon",
+				"src/components/SectionComponent.js"
+			],
+			[
+				"navitemcomponent",
+				"src/components/NavItemComponent.js"
+			],
+			[
+				"navcompon",
+				"src/components/NavComponent.js"
+			],
+			[
+				"naviem",
+				"src/components/NavItemComponent.js"
+			],
+			[
+				"item",
+				"src/components/NavItemComponent.js"
+			],
+			[
+				"navcom",
+				"src/components/NavComponent.js"
+			],
+			[
+				"sectioncompo",
+				"src/components/SectionComponent.js"
+			],
+			[
+				"app.js",
+				"src/App.js"
+			],
+			[
+				"section",
+				"src/components/SectionComponent.js"
+			],
+			[
 				"es",
 				".eslintrc"
 			],
@@ -1530,10 +1374,6 @@
 			[
 				"index.html",
 				"exp/index.html"
-			],
-			[
-				"app.js",
-				"src/App.js"
 			],
 			[
 				"chatreducr",
@@ -1950,86 +1790,6 @@
 			[
 				"counetr.js",
 				"mon/src/routes/Counter/components/Counter.js"
-			],
-			[
-				"moduleslogin",
-				"mon/src/routes/Login/modules/login.js"
-			],
-			[
-				"home.js",
-				"mon/src/routes/Home/index.js"
-			],
-			[
-				"corelayout",
-				"mon/src/layouts/CoreLayout/CoreLayout.js"
-			],
-			[
-				"routes/index",
-				"mon/src/routes/index.js"
-			],
-			[
-				"pack",
-				"mon/package.json"
-			],
-			[
-				"poli",
-				"config/policies.js"
-			],
-			[
-				"stream",
-				"api/models/Stream.js"
-			],
-			[
-				"user",
-				"api/models/User.js"
-			],
-			[
-				"configbul",
-				"config/blueprints.js"
-			],
-			[
-				"user.js",
-				"api/models/User.js"
-			],
-			[
-				"usercont",
-				"api/controllers/UserController.js"
-			],
-			[
-				"routes",
-				"config/routes.js"
-			],
-			[
-				"is",
-				"burden/api/policies/isAuthorized.js"
-			],
-			[
-				"usercon",
-				"burden/api/controllers/UserController.js"
-			],
-			[
-				"configpoli",
-				"burden/config/policies.js"
-			],
-			[
-				"jwtservice",
-				"burden/api/services/JwtService.js"
-			],
-			[
-				"modeluser",
-				"burden/api/models/User.js"
-			],
-			[
-				"usercontrol",
-				"burden/api/controllers/UserController.js"
-			],
-			[
-				"routes.js",
-				"burden/config/routes.js"
-			],
-			[
-				"connectio",
-				"burden/config/connections.js"
 			]
 		],
 		"width": 0.0
@@ -2052,14 +1812,14 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": false,
+	"side_bar_visible": true,
 	"side_bar_width": 293.0,
 	"status_bar_visible": true,
 	"template_settings":

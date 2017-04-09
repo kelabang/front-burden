@@ -2,12 +2,12 @@
 * @Author: Imam
 * @Date:   2017-04-08 23:54:12
 * @Last Modified by:   Imam
-* @Last Modified time: 2017-04-09 04:34:37
+* @Last Modified time: 2017-04-09 11:27:37
 */
 
 import React, { Component } from 'react';
 
-import StreamItem from './StreamItem.js';
+import StreamItem from './../StreamItem/StreamItem.js';
 
 class SectionComponent extends Component {
 	render() {

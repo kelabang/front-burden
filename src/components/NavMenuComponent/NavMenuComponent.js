@@ -2,21 +2,22 @@
 * @Author: Imam
 * @Date:   2017-04-09 02:01:03
 * @Last Modified by:   Imam
-* @Last Modified time: 2017-04-09 02:52:57
+* @Last Modified time: 2017-04-09 11:27:28
 */
 
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
-import NavItemComponent from './NavItemComponent.js';
+import NavItemComponent from './../NavItemComponent/NavItemComponent.js';
 
 class NavMenuComponent extends Component {
 	static propTypes = {
-		menu: React.PropTypes.array,
-		onClick: React.PropTypes.oneOfType([
-			React.PropTypes.func,
-			React.PropTypes.object,
+		menu: PropTypes.array,
+		onClick: PropTypes.oneOfType([
+			PropTypes.func,
+			PropTypes.object,
 		]),
-		activeIndex: React.PropTypes.number
+		activeIndex: PropTypes.number
 	}
 	static defaultProps = {
 		menu: [],

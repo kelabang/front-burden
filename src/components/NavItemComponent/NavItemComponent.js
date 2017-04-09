@@ -2,17 +2,18 @@
 * @Author: Imam
 * @Date:   2017-04-09 00:56:04
 * @Last Modified by:   Imam
-* @Last Modified time: 2017-04-09 02:52:11
+* @Last Modified time: 2017-04-09 11:24:07
 */
 
 import React, { PureComponent } from 'react';
+import PropTypes from 'prop-types';
 
 class NavItemComponent extends PureComponent {
 	static propTypes = {
-		type: React.PropTypes.string,
-		content: React.PropTypes.any,
-		active: React.PropTypes.bool,
-		onClick: React.PropTypes.func
+		type: PropTypes.string,
+		content: PropTypes.any,
+		active: PropTypes.bool,
+		onClick: PropTypes.func
 	}
 	static defaultProps = {
 		type: 'tab', // tab or button

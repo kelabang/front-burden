@@ -2,19 +2,20 @@
 * @Author: Imam
 * @Date:   2017-04-09 03:56:10
 * @Last Modified by:   Imam
-* @Last Modified time: 2017-04-09 04:33:51
+* @Last Modified time: 2017-04-09 14:11:15
 */
 
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import moment from 'moment';
 
 class StreamItem extends Component {
 	static propTypes = {
-		username: React.PropTypes.string,
-		userfullname: React.PropTypes.string,
-		useravatar: React.PropTypes.string,
-		value: React.PropTypes.string,
-		datetime: React.PropTypes.string,
+		username: PropTypes.string,
+		userfullname: PropTypes.string,
+		useravatar: PropTypes.string,
+		value: PropTypes.string,
+		datetime: PropTypes.string,
 	}
 	static defaultProps = {
 		username: 'unknown',
@@ -38,7 +39,7 @@ class StreamItem extends Component {
 				<div className="media-content">
 					<div className="content">
 						<p>
-							<strong>{this.props.userfullname}</strong> <small>{'@' + this.props.username}</small> <small style={{float:'right'}}>{relative}</small>
+							<strong className="fullname">{this.props.userfullname}</strong> <small className="username">{'@' + this.props.username}</small> <small className="datetime" style={{float:'right'}}>{relative}</small>
 							<br/>
 							{this.props.value}
 						</p>

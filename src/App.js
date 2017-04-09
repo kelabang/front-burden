@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
 
-import SectionComponent from './components/SectionComponent';
-import NavComponent from './components/NavComponent';
+import SectionComponent from './components/SectionComponent/SectionComponent';
+import NavComponent from './components/NavComponent/NavComponent';
 
 class App extends Component {
   render() {
