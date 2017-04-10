@@ -2,13 +2,13 @@
 * @Author: Imam
 * @Date:   2017-04-11 00:28:48
 * @Last Modified by:   Imam
-* @Last Modified time: 2017-04-11 00:38:36
+* @Last Modified time: 2017-04-11 01:57:44
 */
 
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
-class SuggestionFollowBox extends Component {
+class SuggestionFollowBoxComponent extends Component {
 	static propTypes = {
 		suggestions: PropTypes.array
 	}
@@ -56,4 +56,4 @@ class SuggestionFollowBox extends Component {
 	}
 }
 
-export default SuggestionFollowBox;
+export default SuggestionFollowBoxComponent;
