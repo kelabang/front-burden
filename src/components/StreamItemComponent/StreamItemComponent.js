@@ -2,7 +2,7 @@
 * @Author: Imam
 * @Date:   2017-04-09 03:56:10
 * @Last Modified by:   Imam
-* @Last Modified time: 2017-04-09 16:05:19
+* @Last Modified time: 2017-04-10 23:22:40
 */
 
 import React, { Component } from 'react';
@@ -22,7 +22,7 @@ class StreamItemComponent extends Component {
 		userfullname: 'unknown',
 		useravatar: 'http://placehold.it/128x128',
 		value: '',
-		datetime: '0000-00-00 00:00:00',
+		datetime: '0000-00-00 00:00:00'
 	}
 	relativeDateTime (date) {
 		return moment(date, 'YYYY-MM-DD HH:mm:ss').fromNow();

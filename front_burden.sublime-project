@@ -1,21 +1,26 @@
 {
+	"SublimeLinter":
+	{
+		"linters":
+		{
+			"eslint":
+			{
+				"excludes":
+				[
+					"dist/*",
+					"node_modules/*"
+				]
+			},
+			"jshint":
+			{
+				"@disable": true
+			}
+		}
+	},
 	"folders":
 	[
 		{
-			"path": "."
+			"path": "/Users/d4r/Sites/front-burden"
 		}
-	],
-	"SublimeLinter":{
-        "linters":{
-            "eslint":{
-                "excludes":[
-                    "dist/*",
-                    "node_modules/*"
-                ]
-            },
-            "jshint":{
-                "@disable":true
-            }
-        }
-    }
+	]
 }

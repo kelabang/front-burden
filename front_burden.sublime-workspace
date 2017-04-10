@@ -5,7 +5,7 @@
 		[
 			[
 				"Prop",
-				"PropTypes.string"
+				"PropTypes.array"
 			],
 			[
 				"actiev",
@@ -520,28 +520,10 @@
 	"buffers":
 	[
 		{
-			"file": "src/App.test.js",
+			"file": "/Users/d4r/Sites/stockbitreact/package.json",
 			"settings":
 			{
-				"buffer_size": 208,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "package.json",
-			"settings":
-			{
-				"buffer_size": 483,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": ".eslintrc",
-			"settings":
-			{
-				"buffer_size": 6836,
-				"encoding": "UTF-8",
+				"buffer_size": 3046,
 				"line_ending": "Unix"
 			}
 		}
@@ -553,16 +535,28 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 392.0,
-		"last_filter": "sub",
+		"height": 269.0,
+		"last_filter": "lint ena",
 		"selected_items":
 		[
 			[
-				"sub",
-				"SublimeLinter: Toggle Linter"
+				"lint ena",
+				"SublimeLinter: Enable Linter"
+			],
+			[
+				"linter",
+				"SublimeLinter: Show All Errors"
 			],
 			[
 				"sublime",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"class",
+				"Snippet: React: class component"
+			],
+			[
+				"sub",
 				"SublimeLinter: Toggle Linter"
 			],
 			[
@@ -654,7 +648,7 @@
 				"Origami: Create Pane on the Right"
 			]
 		],
-		"width": 473.0
+		"width": 442.0
 	},
 	"console":
 	{
@@ -679,29 +673,33 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/d4r/Sites/front-burden",
-		"/Users/d4r/Sites/front-burden/public",
-		"/Users/d4r/Sites/front-burden/src",
-		"/Users/d4r/Sites/front-burden/src/components",
-		"/Users/d4r/Sites/front-burden/src/components/StreamItem"
+		"/Users/d4r/Sites/stockbitreact"
 	],
 	"file_history":
 	[
+		"/Users/d4r/Sites/stockbitreact/app/components/chat/smart/StockbitChat.js",
+		"/Users/d4r/Sites/stockbitreact/.eslintrc",
+		"/Users/d4r/Sites/front-burden/src/components/SectionComponent/SectionComponent.js",
+		"/Users/d4r/Sites/front-burden/src/components/StreamTimelineComponent/StreamTimelineComponent.js",
+		"/Users/d4r/Sites/front-burden/src/components/NotificationComponent/NotificationComponent.js",
+		"/Users/d4r/Sites/front-burden/src/App.test.js",
+		"/Users/d4r/Sites/front-burden/src/components/NavComponent/NavComponent.js",
+		"/Users/d4r/Sites/front-burden/src/components/StreamItemComponent/StreamItemComponent.js",
+		"/Users/d4r/Sites/front-burden/src/components/StreamItemComponent/StreamItemComponent.test.js",
+		"/Users/d4r/Sites/front-burden/src/components/StreamItem/StreamItem.test.js",
+		"/Users/d4r/Sites/front-burden/package.json",
+		"/Users/d4r/Sites/front-burden/src/components/StreamItem/StreamItem.js",
+		"/Users/d4r/Sites/front-burden/src/components/NavMenuComponent/NavMenuComponent.js",
+		"/Users/d4r/Sites/front-burden/src/App.js",
+		"/Users/d4r/Sites/front-burden/src/components/NavItemComponent/NavItemComponent.js",
+		"/Users/d4r/Sites/front-burden/.eslintrc",
 		"/Users/d4r/Sites/front-burden/src/components/StreamItem/StreamItem.test1.js",
 		"/Users/d4r/Sites/front-burden/yarn.lock",
-		"/Users/d4r/Sites/front-burden/.eslintrc",
-		"/Users/d4r/Sites/front-burden/src/components/SectionComponent/SectionComponent.js",
-		"/Users/d4r/Sites/front-burden/src/components/NavComponent/NavComponent.js",
-		"/Users/d4r/Sites/front-burden/src/components/NavMenuComponent/NavMenuComponent.js",
-		"/Users/d4r/Sites/front-burden/src/components/NavItemComponent/NavItemComponent.js",
-		"/Users/d4r/Sites/front-burden/src/components/StreamItem/StreamItem.js",
 		"/Users/d4r/Sites/front-burden/src/components/SectionComponent.js",
-		"/Users/d4r/Sites/front-burden/src/App.js",
 		"/Users/d4r/Sites/front-burden/src/components/StreamItem.js",
 		"/Users/d4r/Sites/front-burden/src/components/NavComponent.js",
 		"/Users/d4r/Sites/front-burden/src/components/NavItemComponent.js",
 		"/Users/d4r/Sites/front-burden/src/components/NavMenuComponent.js",
-		"/Users/d4r/Sites/front-burden/package.json",
 		"/Users/d4r/Sites/front-burden/public/index.html",
 		"/Users/d4r/Sites/exp/index.html",
 		"/Users/d4r/Sites/front-burden/front_burden.sublime-project",
@@ -712,7 +710,6 @@
 		"/Users/d4r/Sites/stockbitreact/index.php",
 		"/Users/d4r/Sites/stockbitreact/assets/js/preinit.js",
 		"/Users/d4r/Sites/stockbitreact/application/views/index.php",
-		"/Users/d4r/Sites/stockbitreact/app/components/chat/smart/StockbitChat.js",
 		"/Users/d4r/Sites/stockbitreact/app/components/stream/dumb/ModalBlockUser.js",
 		"/Users/d4r/Sites/stockbitreact/app/components/stream/dumb/ItemConversationStream.js",
 		"/Users/d4r/Sites/stockbitreact/app/routes/chat/IndexChat.js",
@@ -807,14 +804,7 @@
 		"/Users/d4r/Sites/pwa/server/controllers/api-controller.js",
 		"/Users/d4r/Sites/pwa/src/scripts/libs/RouterSingleton.js",
 		"/Users/d4r/Sites/pwa/app.js",
-		"/Users/d4r/Sites/pwa/src/scripts/controller/ApplicationController.js",
-		"/Users/d4r/Sites/pwa/src/scripts/view/NavDrawerView.js",
-		"/Users/d4r/Sites/pwa/server/controllers/server-controller.js",
-		"/Users/d4r/Sites/pwa/package.json",
-		"/Users/d4r/Sites/mangas_git/src/index.jsx",
-		"/Users/d4r/Sites/mangas_git/webpack.config.js",
-		"/Users/d4r/Sites/EnjingJS/app/model/follow/follow.model.js",
-		"/Users/d4r/Sites/EnjingJS/knexfile.js"
+		"/Users/d4r/Sites/pwa/src/scripts/controller/ApplicationController.js"
 	],
 	"find":
 	{
@@ -825,6 +815,7 @@
 		"height": 93.0,
 		"where_history":
 		[
+			"/Users/d4r/Sites/front-burden",
 			"/Users/d4r/Sites/stockbitreact",
 			""
 		]
@@ -834,6 +825,26 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"import _ from ",
+			"menuconfig",
+			"menuConfig",
+			"toggleNewMenu",
+			"form_room_group",
+			"&commat;",
+			"hide",
+			"hid",
+			"StreamItemCompnonent",
+			"StreamItem",
+			"streamItem",
+			"small",
+			"username",
+			"ReactTestUtils",
+			"import TestUtils from ",
+			"import TestUtils from 'react-addons-test-utils';",
+			"React.Proptypes",
+			"ReactProptypes",
+			"username",
+			"React.",
 			"datedisplay",
 			"clickSelectedIndex",
 			"onclick",
@@ -941,27 +952,7 @@
 			"reportAction",
 			"timelinestream",
 			"itemstream",
-			"reportAction",
-			"ModalReportStream",
-			"streamFollowText",
-			"follow stream",
-			"alert",
-			"props",
-			"calculatekalbat",
-			"scrollToBottom",
-			"192.168.0.111",
-			"status_single_stream",
-			"payload",
-			"store_single_stream",
-			"hidclass",
-			"parentcn",
-			"binder.",
-			"stream-figure-modal",
-			"closeOutsideConversation",
-			"onCloseImage",
-			"showMainFigure",
-			"stream-figure-modal",
-			"images"
+			"reportAction"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -988,19 +979,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "src/App.test.js",
+					"file": "/Users/d4r/Sites/stockbitreact/package.json",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 208,
+						"buffer_size": 3046,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								208,
-								208
+								460,
+								460
 							]
 						],
 						"settings":
@@ -1035,91 +1026,10 @@
 								7,
 								225,
 								4,
-								8,
-								22,
-								53,
-								35,
-								0,
-								0,
-								0,
-								113,
-								1,
-								133,
-								113,
+								10,
 								2,
-								82,
-								113,
-								3,
-								46
-							],
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 1,
-			"sheets":
-			[
-				{
-					"buffer": 1,
-					"file": "package.json",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 483,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								22,
-								22
-							]
-						],
-						"settings":
-						{
-							"c_time":
-							[
-								128,
-								3,
-								99,
-								100,
-								97,
-								116,
-								101,
-								116,
-								105,
-								109,
-								101,
-								10,
-								100,
-								97,
-								116,
-								101,
-								116,
-								105,
-								109,
-								101,
-								10,
-								113,
-								0,
-								67,
-								10,
-								7,
-								225,
-								4,
-								9,
-								4,
-								27,
-								48,
+								6,
+								53,
 								0,
 								0,
 								0,
@@ -1134,83 +1044,6 @@
 								46
 							],
 							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JSON (JavaScriptNext).tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": ".eslintrc",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6836,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								125,
-								125
-							]
-						],
-						"settings":
-						{
-							"c_time":
-							[
-								128,
-								3,
-								99,
-								100,
-								97,
-								116,
-								101,
-								116,
-								105,
-								109,
-								101,
-								10,
-								100,
-								97,
-								116,
-								101,
-								116,
-								105,
-								109,
-								101,
-								10,
-								113,
-								0,
-								67,
-								10,
-								7,
-								225,
-								4,
-								9,
-								11,
-								8,
-								15,
-								0,
-								0,
-								0,
-								113,
-								1,
-								133,
-								113,
-								2,
-								82,
-								113,
-								3,
-								46
-							],
-							"syntax": "Packages/Text/Plain text.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
@@ -1221,6 +1054,11 @@
 					"stack_index": 0,
 					"type": "text"
 				}
+			]
+		},
+		{
+			"sheets":
+			[
 			]
 		}
 	],
@@ -1252,7 +1090,7 @@
 		"cols":
 		[
 			0.0,
-			0.526169162326,
+			0.49212995679,
 			1.0
 		],
 		"rows":
@@ -1280,6 +1118,46 @@
 		"selected_items":
 		[
 			[
+				"packa",
+				"package.json"
+			],
+			[
+				".eslint",
+				".eslintrc"
+			],
+			[
+				"stokcbitchat",
+				"app/components/chat/smart/StockbitChat.js"
+			],
+			[
+				"stockbitchat",
+				"app/components/chat/smart/StockbitChat.js"
+			],
+			[
+				"streamitem",
+				"src/components/StreamItemComponent/StreamItem.js"
+			],
+			[
+				"sectionco",
+				"src/components/SectionComponent/SectionComponent.js"
+			],
+			[
+				"section",
+				"src/components/SectionComponent/SectionComponent.js"
+			],
+			[
+				"navmenu",
+				"src/components/NavMenuComponent/NavMenuComponent.js"
+			],
+			[
+				"app.js",
+				"src/App.js"
+			],
+			[
+				"app.test.",
+				"src/App.test.js"
+			],
+			[
 				"",
 				".eslintrc"
 			],
@@ -1298,10 +1176,6 @@
 			[
 				"navmenucom",
 				"src/components/NavMenuComponent/NavMenuComponent.js"
-			],
-			[
-				"streamitem",
-				"src/components/StreamItem/StreamItem.js"
 			],
 			[
 				"sectoino",
@@ -1356,14 +1230,6 @@
 				"src/components/SectionComponent.js"
 			],
 			[
-				"app.js",
-				"src/App.js"
-			],
-			[
-				"section",
-				"src/components/SectionComponent.js"
-			],
-			[
 				"es",
 				".eslintrc"
 			],
@@ -1386,10 +1252,6 @@
 			[
 				"indexchat",
 				"stockbitreact/app/routes/chat/IndexChat.js"
-			],
-			[
-				"stockbitchat",
-				"stockbitreact/app/components/chat/smart/StockbitChat.js"
 			],
 			[
 				"chatconver",
@@ -1748,10 +1610,6 @@
 				"application/config/database.php"
 			],
 			[
-				"packa",
-				"package.json"
-			],
-			[
 				"indexlogin",
 				"src/containers/IndexLogin.js"
 			],
@@ -1770,26 +1628,6 @@
 			[
 				"pa",
 				"package.json"
-			],
-			[
-				"indexlogin.j",
-				"mon/src/containers/IndexLogin.js"
-			],
-			[
-				"route",
-				"mon/src/routes/Login/index.js"
-			],
-			[
-				"layoutcorelayout",
-				"mon/src/layouts/CoreLayout/CoreLayout.js"
-			],
-			[
-				"counter",
-				"mon/src/routes/Counter/modules/counter.js"
-			],
-			[
-				"counetr.js",
-				"mon/src/routes/Counter/components/Counter.js"
 			]
 		],
 		"width": 0.0
@@ -1800,6 +1638,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"",
+				"~/Sites/front-burden/front_burden.sublime-project"
+			]
 		],
 		"width": 380.0
 	},

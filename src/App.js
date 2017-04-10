@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import './App.css';
+// import './App.css';
+import './timeline.css';
 
 import SectionComponent from './components/SectionComponent/SectionComponent';
 import NavComponent from './components/NavComponent/NavComponent';
